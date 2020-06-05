@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação Regex js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  method="POST">
+        <h1>Validação REGEX JS</h1>
+        <label>Senha</label>
+        <input type="text" id="senha" pattern="[A-Z]{5}--" >
+        <span data-validation>Digite uma senha válida</span>
+
+        <label>Usuário</label>
+        <input type="text" id="user" pattern="[a-z]{1,}" >
+        <span data-validation="">Nome do usuário incorreto</span>
+
+        <label>e-mail</label>
+        <input type="text" id="email" pattern="\w+@gmail.com">
+        <span data-validation="">insira uma e-mail válido</span>
+
+        <button class="btn" type="submit" >CONFIRMA</button>
+
+    </form>
+    <script src="script.js"></script>
+
+</body>
+</html>
