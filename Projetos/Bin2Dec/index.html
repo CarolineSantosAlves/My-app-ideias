@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+
+    <title>Conversor Binário</title>
+</head>
+<body>
+    <section>
+        <form class="formNum">
+            <h1 class="title">Bin2Dec</h1>
+            <p class="break"></p>
+            <p class="descript">Digite uma combinação de até 8 digitos usando apenas 0 e 1</p>
+            <p class="break"></p>
+            <p><input type="text" title="preencha apenas com 0 e 1" placeholder="Digite 0 ou 1" name="bin" id="bin" required></p>
+            <p><input type="button" value="converter" onclick="bin2dec()"></p>
+            <p class="break"></p>
+
+            <p name="flista" id="flista" size="10"></p></br>
+
+        </form>
+        <div id="res">
+            
+        </div>
+    </section>
+      
+    <script src="app.js"></script>  
+</body>
+</html>
