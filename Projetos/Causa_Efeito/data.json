@@ -1,0 +1,15 @@
+{
+    "pessoas" : [
+    {
+        "nome": "...", 
+        "endereco": "...", 
+        "cidade": "...", 
+        "estado": "...", 
+        "pais": "...", 
+        "telefone": "...", 
+        "dataAniversário": "..."
+    
+    }
+    
+]
+}
