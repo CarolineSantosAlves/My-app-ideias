@@ -1,5 +1,6 @@
 let tela = document.getElementById('opAtual');
 let resulAnt = document.getElementById('resulAnt');
+let btresult = document.getElementById('result');
 
 let n1 = n2 = operacao = null;
 
@@ -58,8 +59,15 @@ function calcula() {
       break;
   }
   tela.innerHTML = result;
-  sessionStorage.setItem('resultado anterior',result);
-  resulAnt.innerHTML = `resultado anterior : ${sessionStorage.getItem('resultado anterior')}`;
   n1 = result;
   n2 = operacao = null;
+  btresult.addEventListener('click', function(){
+    console.log('clicou')
+    sessionStorage.setItem('resultado anterior',result);
+    resulAnt.innerHTML = `resultado anterior : ${sessionStorage.getItem('resultado anterior')}`;
+  
+  });
+ 
 };
+
+
