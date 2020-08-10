@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: #d44b57;
+}
+
+#calculadora{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+
+}
+
+button{
+    border: 0;
+    background: #9d0229;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 5px;
+    width: 70px;
+    line-height: 75px;
+    font-size: 16;
+    transition: all 0.5s;
+    
+}
+
+#visor{
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+#resulAnt{
+   color: #8b263f;
+   flex-basis: 240px;
+}

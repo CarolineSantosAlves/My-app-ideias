@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Javscript Estudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id='calculadora'>
+        <button id='clear' onclick="limpa()">C</button>
+        <div id="visor">
+            <div id='resulAnt'></div>
+            <div id='opAtual'></div>
+
+        
+        </div>
+        <button class="num" id="n7" value="7" onclick="atualizaTela(7)">7</button>
+        <button class="num" id="n8" value="8" onclick="atualizaTela(8)">8</button>
+        <button class="num" id="n9" value="9" onclick="atualizaTela(9)">9</button>
+        <button class="ops" id="sum" onclick="operator('+')">+</button>
+      
+        <button class="num" id="n4" value="4" onclick="atualizaTela(4)">4</button>
+        <button class="num" id="n5" value="5" onclick="atualizaTela(5)">5</button>
+        <button class="num" id="n6" value="6" onclick="atualizaTela(6)">6</button>
+        <button class="ops" id="subtract" value="-" onclick="operator('-')">-</button>
+      
+        <button class="num" id="n1" value="1" onclick="atualizaTela(1)">1</button>
+        <button class="num" id="n2" value="2" onclick="atualizaTela(2)">2</button>
+        <button class="num" id="n3" value="3" onclick="atualizaTela(3)">3</button>
+        <button class="ops" id="multiplication" value="*" onclick="operator('*')">*</button>
+      
+        <button class="num" id="0" value="0" onclick="atualizaTela(0)">0</button>
+        <button class="ops" id="float" value="." onclick="">.</button>
+        <button class="result" id="result" onclick="calcula()">=</button>
+        <button class="ops" id="division" value="/" onclick="operator('/')">/</button>
+      
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
