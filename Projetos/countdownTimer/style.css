@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+* {
+   
+    text-align: center;
+     
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #6D597A;
+}
+
+.content{
+   width: 100%;
+    
+}
+p{
+    color: #EAAC8B;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 22px;
+    margin: 0 auto;
+}
+.form{
+    padding-top: 20px;
+    
+    margin: 0 auto 10px;
+}
+
+#agendado{
+    background-color:  #B56576;
+}
+input[type="text"]{
+    font-size: 16px;
+}
+input[type='date']{
+    font-size: 16px;
+    border: 0;
+	border-radius: 3px;
+}
+input[type='time']{
+    font-size: 16px;
+}
+
+button{
+    background-color: #E56B6F;
+    color: cornsilk;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin: 4px 2px;
+    padding: 10px;
+
+}
+
+#contador{
+    font-size: 22px;
+    padding-bottom: 100px;
+    color: #ffffff;
+    font-family: 'Fredericka the Great', cursive;
+    
+}
