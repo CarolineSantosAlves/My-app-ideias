@@ -9,24 +9,19 @@
     <title>Conversor Binário</title>
 </head>
 <body>
-    <section>
-        <form class="formNum">
+
+    <div id="container">
+        <form id="formNum">
             <h1 class="title">Bin2Dec</h1>
-            <p class="break"></p>
-            <p class="descript">Digite uma combinação de até 8 digitos usando apenas 0 e 1</p>
-            <p class="break"></p>
-            <p><input type="text" title="preencha apenas com 0 e 1" placeholder="Digite 0 ou 1" name="bin" id="bin" required></p>
-            <p><input type="button" value="converter" onclick="bin2dec()"></p>
-            <p class="break"></p>
-
-            <p name="flista" id="flista" size="10"></p></br>
-
+             
+            <input type="text" placeholder="até 8 digitos usando 0 e 1" name="bin" id="bin" maxlength="8" required>
+            <button type="submit">Converter</button>
         </form>
-        <div id="res">
-            
-        </div>
-    </section>
-      
+
+        <div id="result" ></div></br>
+          
+    </div>
+          
     <script src="app.js"></script>  
 </body>
 </html>
