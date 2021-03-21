@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>JSON2CSV</title>
+</head>
+<body>
+    <div id="container">
+        <textarea name="" id="conteudo" class="areatext" cols="30" rows="10" placeholder="coloque aqui seu json ou csv"></textarea>
+        <textarea name="" id="converteu" class="areatext" cols="30" rows="10" disabled></textarea>
+        <div class="break"></div>
+        <button id="converter" class="button" onclick="json2csv()">Converter para CSV</button>
+        <button id="converterJson" class="button" onclick="csvToJson()">Converter para Json</button>
+
+        <button id="salva" class="button" onclick="saveData()" disabled>Salvar</button>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
