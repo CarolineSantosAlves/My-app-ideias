@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <title>Lorem Generator</title>
+</head>
+<body>
+    <form id="formNum">
+        <input type="number" name="numParagrafo" class="numParagrafo" id="numParagrafo">
+        
+        <input type="radio" name="tipo" id="palavras" value="palavras">
+        <label for="palavras">Palavras</label>
+        
+        <input type="radio" name="tipo" id="frases" value="frases">
+        <label for="frases">Frases</label>
+        
+        <input type="radio" name="tipo" id="paragrafos" value="paragrafos">
+        <label for="paragrafos">Parágrafos</label>
+        <input type="submit" value="Gerar" id="btnGerar" class="btn" >
+    </form>
+    <button id="copiar" class="btn">Copiar</button>
+
+    <div class="break"></div> <!-- break to a new row -->
+    <div id="loremText"></div>
+    <!--<textarea name="" id="loremText" cols="30" rows="10"></textarea>-->
+    <script src="script.js"></script>
+</body>
+</html>
